@@ -4,5 +4,5 @@ ENV year="2025" \
     day="18th Friday"
 ARG USERNAME=Rohitth
 
-RUN echo "HELLO user ${USERNAME}"
+RUN echo "HELLO USER: ${USERNAME}"
 CMD ["sleep","100"]
