@@ -4,5 +4,5 @@ ENV year="2025" \
     day="18th Friday"
 ARG USER ${username:-some_user}
 
-RUN echo "HELLO ${username}" > /tmp/devops.txt
+RUN echo "HELLO user ${username}"
 CMD["sleep","100"]
