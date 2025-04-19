@@ -5,4 +5,4 @@ ENV year="2025" \
 ARG USER ${username:-some_user}
 
 RUN echo "HELLO user ${username}"
-CMD["sleep","100"]
+CMD ["sleep","100"]
